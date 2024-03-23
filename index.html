@@ -1,75 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fotoblog</title>
-</head>
-<body>
+    <!-- стилі після title -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
     <!-- header -->
-    <header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="./index.html">LIFESTYLE</a>
-                </li>
-                <li>
-                    <a href="./fhotodiary.html">PHOTODIARY</a>
-                </li>
-                <li>
-                    <a href="./music.html">MUSIC</a>
-                </li>
-                <li>
-                    <a href="./index.html">TRAVEL</a>
-                </li>
-            </ul>
-        </nav>
+    <header class="header">
+      <nav>
+        <ul class="main-nav">
+          <li class="main-nav-item">
+            <a href="./index.html" class="link current">LIFESTYLE</a>
+          </li>
+          <li>
+            <a href="./fhotodiary.html" class="link">PHOTODIARY</a>
+          </li>
+          <li>
+            <a href="./music.html" class="link">MUSIC</a>
+          </li>
+          <li>
+            <a href="./index.html" class="link">TRAVEL</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <!-- main -->
     <main>
-        <h1>Fotoblog</h1>
-        <ul>
-            <li>
-                <img src="./images/music_festival.jpg">
-                <p>LIFESTYLE</p>
-                <h2>More than just a music festival</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
-            </li>
-            <li>
-                <img src="./images/coffe.jpg">
-                <p>LIFESTYLE</p>
-                <h2>Life tastes better with coffee</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
-            </li>
-            <li>
-                <img src="./images/dream.jpg">
-                <p>LIFESTYLE</p>
-                <h2>American dream</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
-            </li>
-            <li>
-                <img src="./images/alps.jpg">
-                <p>LIFESTYLE</p>
-                <h2>A day exploring the Alps</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
-            </li>
-            <li>
-                <img src="./images/songs.jpg">
-                <p>LIFESTYLE</p>
-                <h2>Top 10 song for running</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
-            </li>
-            <li>
-                <img src="./images/winter.jpg">
-                <p>LIFESTYLE</p>
-                <h2>Cold winter days</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
-            </li>
-        </ul>
-        <button>Load more</button>
+      <h1>Fotoblog</h1>
+      <ul>
+        <li>
+          <img src="./images/music_festival.jpg" />
+          <p class="signature">LIFESTYLE</p>
+          <h2>More than just a music festival</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea.
+          </p>
+        </li>
+        <li>
+          <img src="./images/coffe.jpg" />
+          <p>LIFESTYLE</p>
+          <h2>Life tastes better with coffee</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea.
+          </p>
+        </li>
+        <li>
+          <img src="./images/dream.jpg" />
+          <p>LIFESTYLE</p>
+          <h2>American dream</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea.
+          </p>
+        </li>
+        <li>
+          <img src="./images/alps.jpg" />
+          <p>LIFESTYLE</p>
+          <h2>A day exploring the Alps</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea.
+          </p>
+        </li>
+        <li>
+          <img src="./images/songs.jpg" />
+          <p>LIFESTYLE</p>
+          <h2>Top 10 song for running</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea.
+          </p>
+        </li>
+        <li>
+          <img src="./images/winter.jpg" />
+          <p>LIFESTYLE</p>
+          <h2>Cold winter days</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea.
+          </p>
+        </li>
+      </ul>
+      <button>Load more</button>
     </main>
     <!-- footer -->
     <footer></footer>
-    
-</body>
+  </body>
 </html>
