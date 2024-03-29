@@ -6,3 +6,11 @@
     --bg-color: #ffffff;
     --main-text-size: 24px;
 }
+
+body {
+    font-family: "Playfair Display", serif;
+}
+
+.signature {
+    font-family: "Ubuntu", sans-serif;
+}
