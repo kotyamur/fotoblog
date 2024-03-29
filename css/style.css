@@ -4,13 +4,35 @@
     --nav-list-color: #7D7D7D;
     --accent-color: #03A9F4;
     --bg-color: #ffffff;
-    --main-text-size: 24px;
+    --main-text-size: 14px;
+    --title-text-size: 30px;
 }
 
 body {
+    background-color: var(--bg-color);
     font-family: "Playfair Display", serif;
+    font-size: var(--main-text-size);
+    color: var(--main-text-color);
 }
 
-.signature {
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    /* color: currentColor; */
+}
+
+.header-nav-link {
+    color: var(--nav-list-color);
+}
+
+.header-nav-link.current {
+    color: var(--accent-color);
+}
+
+.gallery-name {
     font-family: "Ubuntu", sans-serif;
+    color: var(--secondary-text-color);
 }
