@@ -15,13 +15,72 @@ body {
     color: var(--main-text-color);
 }
 
+h1, h2, h3, h4, p {
+    margin: 0;
+}
+
 ul {
+    margin: 0;
+    padding: 0;
     list-style-type: none;
 }
 
+address {
+    font-style: normal;
+}
+
+
 a {
     text-decoration: none;
-    /* color: currentColor; */
+    color: currentColor;
+}
+
+/* .link {
+    color: inherit;
+    text-decoration: none;
+} */
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  }
+
+.container {
+    /* max-width: 936px; */
+    width: 936px;
+    margin: 0 auto;
+    /* margin-left: auto;
+    margin-right: auto; */
+    padding: 0 15px;
+    
+    outline: 2px dashed #f44336;
+}
+
+.header {
+    padding-top: 71px;
+    padding-bottom: 92px;
+}
+
+.header-nav-list {
+    /* width: 555px; */
+    /* margin: 0 auto; */
+    display: flex;
+    gap: 100px;
+    justify-content: center;
 }
 
 .header-nav-link {
@@ -32,7 +91,64 @@ a {
     color: var(--accent-color);
 }
 
+.gallery {
+    padding-bottom: 66px;
+}
+/* 1 v - gap */
+.gallery-list {
+    display: flex;
+    flex-wrap: wrap;
+    /* 1 v - gap */
+    column-gap: 65px;
+    row-gap: 130px;
+    margin-bottom: 90px;
+
+    /* відємні марджини */
+    /* margin-bottom: -130px;
+    margin-right: -65px; */
+}
+
+.gallery-item {
+    width: calc((100% - 65px) / 2);
+    /* відємні марджини */
+    width: 420px;
+    /* margin-bottom: 130px;
+    margin-right: 65px; */
+}
+/* 2v - nth-child */
+/* .gallery-item:nth-last-child(n + 3) {
+    margin-bottom: 130px;
+}
+
+.gallery-item:nth-child(2n + 1) {
+    margin-right: 65px;
+} */
+
+.gallery-photo {
+    margin-bottom: 62px;
+}
+
 .gallery-name {
+    margin-bottom: 32px;
     font-family: "Ubuntu", sans-serif;
     color: var(--secondary-text-color);
+}
+
+.gallery-title {
+    margin-bottom: 40px;
+}
+
+.gallery-btn {
+    display: block;
+    margin: auto;
+    padding: 20px 48px;
+    border: 1px solid var(--main-text-color);
+    outline: none;
+    /* background-color: transparent; */
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: var(--main-text-color);
+    background-color: var(--bg-color);
 }
