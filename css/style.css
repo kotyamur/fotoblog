@@ -102,15 +102,16 @@ img {
     column-gap: 65px;
     row-gap: 130px;
     margin-bottom: 90px;
+    /*  4 v - space-beetween -проміжок, якщо не рівна кількість    */
 
-    /* відємні марджини */
+    /*3 відємні марджини */
     /* margin-bottom: -130px;
     margin-right: -65px; */
 }
 
 .gallery-item {
     width: calc((100% - 65px) / 2);
-    /* відємні марджини */
+    /* 3 відємні марджини */
     width: 420px;
     /* margin-bottom: 130px;
     margin-right: 65px; */
@@ -122,6 +123,9 @@ img {
 
 .gallery-item:nth-child(2n + 1) {
     margin-right: 65px;
+}
+.gallery-item:nth-child(2n) {
+    margin-left: 65px;
 } */
 
 .gallery-photo {
