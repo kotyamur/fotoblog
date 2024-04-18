@@ -128,6 +128,11 @@ img {
     margin-left: 65px;
 } */
 
+/* 5v - nth-child 0 */
+/* .gallery-item:nth-last-child(-n + 3) {
+    margin-bottom: 0px;
+} */
+
 .gallery-photo {
     margin-bottom: 62px;
 }
