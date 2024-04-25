@@ -78,9 +78,9 @@ img {
 .header-nav-list {
     /* width: 555px; */
     /* margin: 0 auto; */
-    display: flex;
-    gap: 100px;
-    justify-content: center;
+    /* display: flex; */
+    /* gap: 100px; */
+    /* justify-content: center; */
 }
 
 .header-nav-link {
@@ -94,43 +94,55 @@ img {
 .gallery {
     padding-bottom: 66px;
 }
-/* 1 v - gap */
+
 .gallery-list {
-    display: flex;
-    flex-wrap: wrap;
-    /* 1 v - gap */
-    column-gap: 65px;
-    row-gap: 130px;
+    /* display: flex;
+    flex-wrap: wrap; */
     margin-bottom: 90px;
+
+    /* 1 v - gap */
+    /* column-gap: 65px;
+    row-gap: 130px; */
+    
     /*  4 v - space-beetween -проміжок, якщо не рівна кількість    */
 
     /*3 відємні марджини */
-    /* margin-bottom: -130px;
-    margin-right: -65px; */
+    /* margin: -65px -32px; */
 }
 
 .gallery-item {
-    width: calc((100% - 65px) / 2);
-    /* 3 відємні марджини */
+    /* width: calc((100% - 65px) / 2); */
     width: 420px;
-    /* margin-bottom: 130px;
-    margin-right: 65px; */
-}
-/* 2v - nth-child */
-/* .gallery-item:nth-last-child(n + 3) {
-    margin-bottom: 130px;
+
+    /* 3 відємні марджини */
+   /* margin: 65px 32px; */
 }
 
-.gallery-item:nth-child(2n + 1) {
-    margin-right: 65px;
+/* 2v - nth-child with 0*/
+/* .gallery-item {
+    margin-bottom: 130px;
 }
 .gallery-item:nth-child(2n) {
     margin-left: 65px;
+}
+.gallery-item:nth-last-child(-n + 2) {
+    margin-bottom: 0px;
 } */
 
-/* 5v - nth-child 0 */
-/* .gallery-item:nth-last-child(-n + 3) {
-    margin-bottom: 0px;
+/* 2v - nth-child */
+/* 1 */
+/* .gallery-item:nth-child(2n) {
+    margin-left: 65px;
+} 
+.gallery-item:nth-last-child(n + 3) {
+    margin-bottom: 130px;
+} */
+/* 2 */
+/* .gallery-item:nth-child(2n + 1) {
+    margin-right: 65px;
+}
+.gallery-item:not(:nth-last-child(-n + 2)) {
+    margin-bottom: 130px;
 } */
 
 .gallery-photo {
