@@ -1,8 +1,11 @@
 body {
-    background-color: var(--bg-color);
+    // background-color: var(--bg-color);
+    background-color: $bg-color;
     font-family: "Playfair Display", serif;
-    font-size: var(--main-text-size);
-    color: var(--main-text-color);
+    // font-size: var(--main-text-size);
+    font-size: $main-text-size;
+    // color: var(--main-text-color);
+    color: $main-text-color;
 }
 
 .visually-hidden {

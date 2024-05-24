@@ -12,9 +12,11 @@
 }
 
 .header-nav-link {
-    color: var(--nav-list-color);
+    // color: var(--nav-list-color);
+    color: $nav-list-color;
 }
 
 .header-nav-link.current {
-    color: var(--accent-color);
+    // color: var(--accent-color);
+    color: $accent-color;
 }

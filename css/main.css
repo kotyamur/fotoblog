@@ -9,10 +9,10 @@
 }
 
 body {
-  background-color: var(--bg-color);
+  background-color: #ffffff;
   font-family: "Playfair Display", serif;
-  font-size: var(--main-text-size);
-  color: var(--main-text-color);
+  font-size: 14px;
+  color: #626262;
 }
 
 .visually-hidden {
@@ -78,11 +78,11 @@ img {
 }
 
 .header-nav-link {
-  color: var(--nav-list-color);
+  color: #7D7D7D;
 }
 
 .header-nav-link.current {
-  color: var(--accent-color);
+  color: #03A9F4;
 }
 
 .gallery {
@@ -110,7 +110,7 @@ img {
 .gallery-name {
   margin-bottom: 32px;
   font-family: "Ubuntu", sans-serif;
-  color: var(--secondary-text-color);
+  color: #B4AD9E;
 }
 
 .gallery-title {
@@ -121,13 +121,13 @@ img {
   display: block;
   margin: auto;
   padding: 20px 48px;
-  border: 1px solid var(--main-text-color);
+  border: 1px solid #626262;
   outline: none;
   background-color: transparent;
   cursor: pointer;
   font-weight: 400;
   font-size: 14px;
   text-align: center;
-  color: var(--main-text-color);
-  background-color: var(--bg-color);
+  color: #626262;
+  background-color: #ffffff;
 }/*# sourceMappingURL=main.css.map */

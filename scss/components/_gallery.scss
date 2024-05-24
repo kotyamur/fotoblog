@@ -10,13 +10,10 @@
     /* 1 v - gap */
     column-gap: 65px;
     row-gap: 130px;
-    
 }
 
 .gallery-item {
     width: calc((100% - 65px) / 2);
-
-    
 }
 
 .gallery-photo {
@@ -26,7 +23,8 @@
 .gallery-name {
     margin-bottom: 32px;
     font-family: "Ubuntu", sans-serif;
-    color: var(--secondary-text-color);
+    // color: var(--secondary-text-color);
+    color: $secondary-text-color;
 }
 
 .gallery-title {
@@ -37,13 +35,16 @@
     display: block;
     margin: auto;
     padding: 20px 48px;
-    border: 1px solid var(--main-text-color);
+    // border: 1px solid var(--main-text-color);
+    border: 1px solid $main-text-color;
     outline: none;
     background-color: transparent;
     cursor: pointer;
     font-weight: 400;
     font-size: 14px;
     text-align: center;
-    color: var(--main-text-color);
-    background-color: var(--bg-color);
+    // color: var(--main-text-color);
+    // background-color: var(--bg-color);
+    color: $main-text-color;
+    background-color: $bg-color;
 }
