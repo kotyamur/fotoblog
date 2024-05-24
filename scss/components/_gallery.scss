@@ -19,8 +19,10 @@
 .gallery-photo {
     margin-bottom: 62px;
 }
-
+//Директива @mixin
 .gallery-name {
+    // @include bordered(green);
+
     margin-bottom: 32px;
     font-family: "Ubuntu", sans-serif;
     // color: var(--secondary-text-color);
@@ -28,23 +30,38 @@
 }
 
 .gallery-title {
+
+    // @include border($type: dashed);
+    // @include border($type: dotted, $color: $accent-color);
+
     margin-bottom: 40px;
 }
 
+// Директива @extend
+// .btn {
+//     border: 1px solid $main-text-color;
+//     outline: none;
+//     background-color: transparent;
+//     cursor: pointer;
+//     font-weight: 400;
+//     font-size: 14px;
+// }
+
 .gallery-btn {
-    display: block;
-    margin: auto;
-    padding: 20px 48px;
-    // border: 1px solid var(--main-text-color);
     border: 1px solid $main-text-color;
     outline: none;
     background-color: transparent;
     cursor: pointer;
     font-weight: 400;
     font-size: 14px;
+
+    // @extend .btn;
+    // @extend %btn;
+
+    display: block;
+    margin: auto;
+    padding: 20px 48px;
     text-align: center;
-    // color: var(--main-text-color);
-    // background-color: var(--bg-color);
     color: $main-text-color;
     background-color: $bg-color;
 }

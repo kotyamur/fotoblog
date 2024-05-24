@@ -1,5 +1,32 @@
 @import "./utils/variables";
+@import "./utils/placeholders";
+@import "./utils/mixins";
 @import "./base/common";
 @import "./base/reset";
 @import "./components/header";
 @import "./components/gallery";
+
+.icon {
+  width: 100px;
+  height: 100px;
+}
+
+.icon-facebook {
+  background-image: url('../images/facebook.svg');
+}
+
+.icon-github {
+  background-image: url('../images/github.svg');
+}
+
+.icon-linkedin {
+  background-image: url('../images/linkedin.svg');
+}
+
+.icon-twitter {
+  background-image: url('../images/twitter.svg');
+}
+
+// @include generateIcons($socialIcons);
+
+// @include generateIcons($techIcons);

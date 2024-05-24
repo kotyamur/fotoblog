@@ -108,16 +108,37 @@ img {
 }
 
 .gallery-btn {
-  display: block;
-  margin: auto;
-  padding: 20px 48px;
   border: 1px solid #626262;
   outline: none;
   background-color: transparent;
   cursor: pointer;
   font-weight: 400;
   font-size: 14px;
+  display: block;
+  margin: auto;
+  padding: 20px 48px;
   text-align: center;
   color: #626262;
   background-color: #ffffff;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+}
+
+.icon-facebook {
+  background-image: url("../images/facebook.svg");
+}
+
+.icon-github {
+  background-image: url("../images/github.svg");
+}
+
+.icon-linkedin {
+  background-image: url("../images/linkedin.svg");
+}
+
+.icon-twitter {
+  background-image: url("../images/twitter.svg");
 }/*# sourceMappingURL=main.css.map */
