@@ -1,0 +1,49 @@
+.gallery {
+    padding-bottom: 66px;
+}
+
+.gallery-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 90px;
+
+    /* 1 v - gap */
+    column-gap: 65px;
+    row-gap: 130px;
+    
+}
+
+.gallery-item {
+    width: calc((100% - 65px) / 2);
+
+    
+}
+
+.gallery-photo {
+    margin-bottom: 62px;
+}
+
+.gallery-name {
+    margin-bottom: 32px;
+    font-family: "Ubuntu", sans-serif;
+    color: var(--secondary-text-color);
+}
+
+.gallery-title {
+    margin-bottom: 40px;
+}
+
+.gallery-btn {
+    display: block;
+    margin: auto;
+    padding: 20px 48px;
+    border: 1px solid var(--main-text-color);
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: var(--main-text-color);
+    background-color: var(--bg-color);
+}
