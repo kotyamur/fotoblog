@@ -30,3 +30,93 @@
 // @include generateIcons($socialIcons);
 
 // @include generateIcons($techIcons);
+
+// .responsive-container {
+//     width: 936px;
+//     margin: 0 auto;
+//     padding: 0 15px;
+//     outline: 2px dashed #f44336;
+
+//     & ul {
+//       display: flex;
+//       gap: 30px;
+
+//     }
+//     & li {
+//       width: 200px;
+//       height: 200px;
+//       background-color: aqua;
+//       flex-shrink: 0;
+//     }
+// }
+
+// .adaptive-container {
+//   width: 296px;
+//   margin: 0 auto;
+//   padding: 0 15px;
+//   outline: 2px dashed #f44336;
+
+//   @media screen and (min-width: 768px) {
+//       width: 736px;
+//   }
+//   @media screen and (min-width: 1200px) {
+//       width: 936px;
+//   }
+//   & .adaptive-list {
+    
+//     @media screen and (min-width: 768px) {
+//       display: flex;
+//       gap: 30px;
+//       flex-wrap: wrap;
+//       justify-content: space-between;
+//     }
+//     @media screen and (min-width: 1200px) {
+//       flex-wrap: nowrap;
+//     }
+//   }
+//   & li {
+//     margin-bottom: 30px;
+//     width: 100%;
+//     height: 200px;
+//     background-color: aqua;
+//     flex-shrink: 0;
+//     @media screen and (min-width: 768px) {
+//       width: 300px;
+//     }
+//     @media screen and (min-width: 1200px) {
+//       width: 200px;
+//     }
+//   }
+// }
+
+// .responsive-container {
+//   max-width: 1400px;
+//   margin: 0 auto;
+//   padding: 0 15px;
+//   outline: 2px dashed #f44336;
+
+//   & .responsive-list {
+    
+//     @media screen and (min-width: 768px) {
+//       display: flex;
+//       gap: 30px;
+//       flex-wrap: wrap;
+//     }
+//     @media screen and (min-width: 1200px) {
+//       flex-wrap: nowrap;
+//     }
+//   }
+//   & li {
+//     margin-bottom: 30px;
+//     width: 100%;
+//     height: 200px;
+//     background-color: aqua;
+//     flex-shrink: 0;
+//     @media screen and (min-width: 768px) {
+//       width: calc((100% - 30px) / 2);
+//     }
+//     @media screen and (min-width: 1200px) {
+//       width: calc((100% - 90px) / 4);
+//     }
+//   }
+// }
