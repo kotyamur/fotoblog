@@ -1,5 +1,11 @@
 .gallery {
     padding-bottom: 66px;
+    &-item {
+        width: calc((100% - 65px) / 2);
+    }
+    &-photo {
+        margin-bottom: 62px;
+    }
 }
 
 .gallery-list {
@@ -12,13 +18,14 @@
     row-gap: 130px;
 }
 
-.gallery-item {
-    width: calc((100% - 65px) / 2);
-}
+// .gallery-item {
+//     width: calc((100% - 65px) / 2);
+// }
 
-.gallery-photo {
-    margin-bottom: 62px;
-}
+// .gallery-photo {
+//     margin-bottom: 62px;
+// }
+
 //Директива @mixin
 .gallery-name {
     // @include bordered(green);

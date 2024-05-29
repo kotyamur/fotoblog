@@ -16,9 +16,12 @@
 .header-nav-link {
     // color: var(--nav-list-color);
     color: $nav-list-color;
+    &.current {
+        color: $accent-color;
+    }
 }
 
-.header-nav-link.current {
+// .header-nav-link.current {
     // color: var(--accent-color);
-    color: $accent-color;
-}
+    // color: $accent-color;
+// }
