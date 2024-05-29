@@ -2,6 +2,10 @@
     padding-bottom: 66px;
     &-item {
         width: calc((100% - 65px) / 2);
+        @media screen and (max-width: 767px) {
+            width: 100%;
+            margin-bottom: 28px;
+        }
     }
     &-photo {
         margin-bottom: 62px;
@@ -9,13 +13,18 @@
 }
 
 .gallery-list {
-    display: flex;
-    flex-wrap: wrap;
+    // display: flex;
+    // flex-wrap: wrap;
+    // column-gap: 65px;
+    // row-gap: 130px;
     margin-bottom: 90px;
 
-    /* 1 v - gap */
-    column-gap: 65px;
-    row-gap: 130px;
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 65px;
+        row-gap: 130px;
+    }
 }
 
 // .gallery-item {

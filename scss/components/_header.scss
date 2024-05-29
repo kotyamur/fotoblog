@@ -1,14 +1,31 @@
 .header {
     padding-top: 71px;
     padding-bottom: 92px;
+
+    @media screen and (max-width: 1199px) {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
 }
 
 .header-nav-list {
-    width: 555px;
-    margin: 0 auto;
+    // width: 555px;
+    // margin: 0 auto;
     display: flex;
     gap: 100px;
     justify-content: center;
+
+    @media screen and (min-width: 768px) {
+        gap: 50px;
+    }
+    @media screen and (min-width: 1200px) {
+        gap: 100px;
+    }
+    @media screen and (max-width: 767px) {
+        flex-wrap: wrap;
+        row-gap: 12px;
+        column-gap: 40px;
+    }
 
     // @include centeredFlex($gap: 100px);
 }
