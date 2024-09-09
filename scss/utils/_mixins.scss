@@ -39,3 +39,23 @@
       @content;
   }
 }
+
+@mixin border($color: black, $type: solid) {
+  border: 1px $type $color;
+}
+
+.gallery-title {
+  @include border($type: dotted, $color: $accent-color);
+}
+
+@mixin section($pt: 60px, $pb: 60px) {
+  padding-top: $pt;
+  padding-bottom: $pb;
+}
+.customers{
+  @include section($pt: 60px, $pb: 60px);
+
+  @media screen and (min-width: 1200px) {
+      @include section($pt: 94px, $pb: 94px);
+    }
+}
