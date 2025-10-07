@@ -3,8 +3,9 @@
 @import "./utils/mixins";
 @import "./base/reset";
 @import "./base/common";
-@import "./components/header";
-@import "./components/gallery";
+@import "./components/container";
+@import "./layout/header";
+@import "./layout/gallery";
 
 .icon {
   width: 100px;

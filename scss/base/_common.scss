@@ -21,22 +21,3 @@ body {
     margin: -1px;
 }
 
-.container {
-    /* max-width: 936px; */
-    // width: 936px;
-    width: 296px;
-
-    margin: 0 auto;
-    /* margin-left: auto;
-    margin-right: auto; */
-    padding: 0 15px;
-    
-    outline: 2px dashed #f44336;
-
-    @media screen and (min-width: 768px) {
-        width: 736px;
-    }
-    @media screen and (min-width: 1200px) {
-        width: 936px;
-    }
-}
